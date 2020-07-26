@@ -28,14 +28,18 @@ class ViewController: UIViewController {
     
     @IBAction func calculateTip(_ sender: Any) {
         // Get the bill
-        let bill = billField.text! // use of optional
+        // use of optional !
+        // if not valid ?? turns it into 0
+        let bill = Double(billField.text!) ?? 0
         
         
         // Calculate the tip and total
+        let tip = bill * 0.1
+        let total = bill + tip
         
         // Update the tip and total labels
-        tipLabel.text = "$10.00"
-        totalLabel.text = "$110.00"
+        tipLabel.text = "$\(tip)"
+        totalLabel.text = "$\(total)"
     }
 }
 
