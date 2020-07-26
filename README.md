@@ -7,3 +7,6 @@ This project contains a simple iOS calculator.
 To run it, load it into XCode. 
 You can then click play to preview the application and interact with it. This application was created for iPhone 8
 
+![App Preview](https://github.com/curiousjazz77/iOS_calculator/blob/master/preview.png)
+
+
