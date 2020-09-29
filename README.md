@@ -1,5 +1,5 @@
 # iOS_calculator
-iOS Pre-work: Tip Calculator App
+Tip Calculator App. My first iOS application
 
 This project contains a simple iOS calculator. 
 
